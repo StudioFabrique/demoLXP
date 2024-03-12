@@ -20,7 +20,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npm run install
       - run: npm run build
       # Copying files and artifacts via SSH
       - name: Copying files to server
