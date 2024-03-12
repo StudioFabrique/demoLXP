@@ -14,7 +14,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Contactez-nous"
-        description="Intéressé à devenir partenaire ? Contactez-nous pour en savoir plus sur les opportunités de collaboration. Ensemble, innovons et construisons une nouvelle expérience d'apprentissage."
+        description="Intéressé à devenir partenaire ? Contactez-nous pour en savoir plus sur les opportunités de collaboration. Ensemble, innovons et construisons une nouvelle expérience d apprentissage."
       />
 
       <Contact />
