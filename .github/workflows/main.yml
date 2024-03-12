@@ -37,4 +37,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME  }}
           key: ${{ secrets.SSH_KEY }}
+          script: |
+            cd ${{secrets.TARGET}}
+            pm2 restart demo-lxp.config.js
 
