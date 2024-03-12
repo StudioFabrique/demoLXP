@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="À Propos de LXP"
+        description="Améliorer l'efficacité de l'apprentissage en offrant un contenu de qualité et en permettant aux utilisateurs de personnaliser leur expérience d'apprentissage."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

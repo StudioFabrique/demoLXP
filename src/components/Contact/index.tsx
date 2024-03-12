@@ -5,17 +5,17 @@ const Contact = () => {
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
-          <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
+          <div className="w-full px-4 ">
             <div
               className="mb-12 rounded-sm bg-white px-8 py-11 shadow-three dark:bg-gray-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
               data-wow-delay=".15s
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Open a Ticket
+                Contacter nous pour reserver une démonstration
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+              Notre équipe vous répondra dans les plus brefs délais.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -25,7 +25,7 @@ const Contact = () => {
                         htmlFor="name"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Name
+                        Nom & Prénom
                       </label>
                       <input
                         type="text"
@@ -40,7 +40,7 @@ const Contact = () => {
                         htmlFor="email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Email
+                        Adresse Mail
                       </label>
                       <input
                         type="email"
@@ -55,7 +55,7 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Your Message
+                        Message
                       </label>
                       <textarea
                         name="message"
@@ -67,16 +67,16 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-4">
                     <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                      Submit Ticket
+                      Envoyer
                     </button>
                   </div>
                 </div>
               </form>
             </div>
           </div>
-          <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
+          {/* <div className="w-full px-4 lg:w-5/12 xl:w-4/12">
             <NewsLatterBox />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
